@@ -99,8 +99,8 @@ public class AnimationDemo extends Application {
 
         final Scene scene = new Scene(wizard, 800, 200);
         final ObservableList<String> stylesheets = scene.getStylesheets();
-        stylesheets.addAll(ButtonDemo.class.getResource("/css/jfoenix-design.css").toExternalForm(),
-                           ButtonDemo.class.getResource("/css/jfoenix-components.css").toExternalForm());
+        stylesheets.addAll(AnimationDemo.class.getResource("/css/jfoenix-design.css").toExternalForm(),
+            AnimationDemo.class.getResource("/css/jfoenix-components.css").toExternalForm());
         stage.setTitle("JFX Button Demo");
         stage.setScene(scene);
         stage.show();
@@ -147,7 +147,7 @@ public class AnimationDemo extends Application {
 
         @Override
         public void end() {
-
+            animateExit();
         }
 
         @Override

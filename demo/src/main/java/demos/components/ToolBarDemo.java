@@ -13,7 +13,7 @@ public class ToolBarDemo extends Application {
     public void start(Stage primaryStage) throws Exception {
         JFXToolbar jfxToolbar = new JFXToolbar();
         jfxToolbar.setLeftItems(new Label("Left"));
-        jfxToolbar.setRightItems(new Label("Right"));
+        jfxToolbar.setRightItems(new Label("Right"),new Label("Right"));
 
         StackPane main = new StackPane();
         main.getChildren().add(jfxToolbar);
