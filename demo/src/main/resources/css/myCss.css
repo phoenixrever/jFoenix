@@ -1,0 +1,14 @@
+.tree-view {
+    -fx-background-color: transparent;
+}
+
+.tree-cell {
+    -fx-background-color: transparent;
+    -fx-padding: 10 5 10 5;
+    -fx-font-size: 14px;
+}
+
+.tree-cell:selected {
+    -fx-background-color: transparent;
+    -fx-text-fill: #4287f5;
+}
